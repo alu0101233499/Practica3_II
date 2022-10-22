@@ -24,3 +24,7 @@ En este apartado, convertí al objeto C en un objeto notificador de eventos. De 
 ### b2. Cuando el jugador se aproxima al objeto de tipo C, los objetos de tipo B se orientan hacia un objetivo ubicado en la escena con ese propósito.
 De forma similar al apartado anterior, el script *ObjetoB.cs* se modifica de forma que el objeto B sea un observador del objeto C. En caso de que éste lance un evento, el objeto B lo observará y ejecutará la función *orientarObjetivo()*, que hará que los objetos B apunten a un cilindro establecido en la escena.
 ![Apartado b2](images/Apartadob2.gif)
+
+### c. Buscar información de Debug.DrawRay y utilízala para depuración.
+La función *Debug.DrawRay* permite dibujar un "rayo de luz" desde un punto inicial hacia una dirección señalada en forma de *Vector3*. Además, se puede decidir el color y la duración del rayo. Esta función es especialmente útil para que, de forma visual, pueda comprobarse si las direcciones de los vectores que se usan en el proyecto son correctas.
+![Apartado c](images/Apartadoc.gif)
